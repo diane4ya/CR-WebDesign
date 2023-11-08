@@ -1,0 +1,178 @@
+body {
+    background-color: #5A358C;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1, 
+h2, 
+h3 {
+    color: #263B96;
+    text-align: center;
+}
+
+#container {
+    background-color: #D9AD29;
+}
+
+nav {
+    background-color: #98C790;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom: 2px solid #D2D6D9;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #5A358C;
+    color: #D2D6D9;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a:hover {
+    background-color: #50A6C9;
+    color: #263B96;
+    border: ridge #D2D6D9;
+}
+
+main {
+    padding: 10px;
+}
+
+.column {
+    padding: 10px;
+    border-top: 2px solid #5A358C;
+}
+
+footer {
+    background-color: #98C790;
+    color: rgb(9, 9, 9);
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 10px;
+    line-height: 10px;
+    background-color: #5A358C;
+    color: #D2D6D9;
+    text-decoration: #D2D6D9;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 4px ridge #D2D6D9;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #50A6C9;
+    border-color: #263B96;
+}
+
+table {
+    border: #5A358C;
+}
+
+tr, td {
+    border: 4px solid #5A358C;
+}
+
+@media screen and (min-width:768px) {
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        width: 180px;
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 4px ridge #D2D6D9;
+    }
+
+    main {
+        display: flex;
+    }
+    
+    section, 
+    aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #5A358C;
+        border-radius: 10px;
+    } 
+
+    section {
+        width: 70%
+    }
+
+    aside {
+        width: 30%
+    }
+
+   .column image {
+    width: 50%;
+   }
+
+   .button {
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+}
+
+@media (min-width: 1024px) {
+    #container {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    nav li a {
+        background-color: #263B96;
+        border: 0;
+    }
+
+    #lower_area {
+        display: flex;
+    }
+
+    .column {
+        border: 2px solid #5A358C;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .single_page {
+        width: 100%;
+    }
+
+    section image {
+        width: 75%;
+    }
+}
