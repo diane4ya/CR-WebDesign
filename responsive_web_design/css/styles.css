@@ -144,6 +144,14 @@ tr, td {
     margin: 0 auto;
     width: 80%;
 }
+
+    .single_page {
+        width: 100%;
+    }
+    
+    table image {
+        width: 100%;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -168,7 +176,7 @@ tr, td {
         border-radius: 10px;
     }
 
-    .single_page {
+    table image {
         width: 100%;
     }
 
