@@ -1,0 +1,181 @@
+body {
+    background-color:  #47291D;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: #030309;
+    text-align: center;
+}
+
+#container {
+    background-color: #C6BFAF;
+}
+
+nav {
+    background-color:#1c9e97;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    border-bottom: 0 solid #D2D6D9;
+}
+
+nav li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background-color: #583828;
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 10;
+}
+
+nav li a:hover {
+    background-color: #D9BF41;
+    color: #583828;
+    border: 2px ridge #D2D6D9;
+}
+
+main {
+    padding: 10px;
+}
+
+.column {
+    padding: 10px;
+    border-top: 2px solid #583828;
+
+}
+
+footer {
+    background-color: #1c9e97;
+    color: rgb(9, 9, 9);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #583828;
+    color: #C6BFA9;
+    text-decoration: #C6BFA9;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 4px ridge #D2D6D9;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #D9BF41;
+    border-color: #C6BFA9;
+}
+
+table {
+    border: 2px solid #030309;
+}
+
+td, tr {
+    border: 3px double #030309;
+}
+
+@media screen and (min-width:768px) {
+    nav li{
+        display: inline-block;
+        border: 0;
+    }
+}
+
+nav li a {
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 4px ridge #D2D6D9;
+}
+
+main {
+    display: flex;
+}
+
+section, aside {
+    padding: 6px;
+    margin: 20px;
+    border: 2px ridge #D9BF41;
+    border-radius: 10px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+.column img {
+    width: 80%;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.single_page {
+    width: 100%
+}
+
+table image {
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    #container {
+        width: 70%;
+        margin: 20px auto;
+    }
+}
+
+nav li a {
+    background-color: #583828;
+    border: 0;
+}
+
+#lower_area {
+    display: flex;
+}
+
+.column {
+    border: 6px ridge #D9BF41;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+}
