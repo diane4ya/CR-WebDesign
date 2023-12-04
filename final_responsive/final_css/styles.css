@@ -2,6 +2,11 @@ body {
     background-color:  #47291D;
 }
 
+video, audio {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
 img {
     display: block;
     margin: 0 auto;
@@ -183,3 +188,4 @@ nav li a {
 table {
     width: 100%;
 }
+
