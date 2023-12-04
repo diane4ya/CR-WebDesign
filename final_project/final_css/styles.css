@@ -121,3 +121,13 @@ footer {
     color: #583828;
     border: 2px ridge #C6BFAF
 }
+
+table {
+    border: 6px solid #030309;
+}
+
+td, tr {
+    border: 6px double #030309;
+    padding: 3px;
+    margin: 10px;
+}
